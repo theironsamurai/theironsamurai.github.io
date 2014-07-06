@@ -1,0 +1,131 @@
+/* 
+*
+* Nemesis CSS
+*
+*/
+
+/* Typography Basics */
+
+body {
+  color: #f8f8f2;
+  background-color: #07000D;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+p a, ul li a, ol li a, blockquote a {
+    text-decoration: underline;
+}
+
+strong, em {
+    color: #66d9ef;
+}
+
+strong {
+    font-weight: 700;
+}
+
+blockquote {
+    color: #e6db74;
+}
+
+/* Home Intro */
+
+.home-intro p {
+    color: #e6db74;
+    font-size: 75%;
+    font-style: italic;
+}
+
+.home-intro h1 {
+    color: #a6e22e;
+    font-size: 140%;
+}
+
+.post .post-title, .page .page-title {
+    color: #ae81ff;
+}
+
+.post-author {
+  font-size: 60%;
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #7E6F8F;
+}
+
+/* Tags Page */
+
+.tag-box {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  overflow: hidden;
+ }
+ .tag-box li {
+    float: left;
+    font-size: 0.8rem;
+    line-height: 2.5;
+ }
+
+ .tag-box a { 
+    padding: 4px 6px;
+    margin: 2px;
+    background-color: #333;
+    text-decoration: none;
+ }
+.tag-box a span { 
+      vertical-align: super;
+      font-size: 0.8rem;
+ }
+
+ .dj-tags-list-wrap {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/* Sidebar Themes: Custom */
+
+/* Pink */
+
+.theme-base-pink .sidebar,
+.theme-base-pink .sidebar-toggle:active,
+.theme-base-pink #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #452F6B;
+}
+
+.theme-base-pink .container a,
+.theme-base-pink .sidebar-toggle,
+.theme-base-pink .related-posts li a:hover {
+  color: #ae81ff;
+}
+
+/* Navy */
+
+.theme-base-navy .sidebar,
+.theme-base-navy .sidebar-toggle:active,
+.theme-base-navy #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #0A001C;
+}
+
+.theme-base-navy .container a,
+.theme-base-navy .sidebar-toggle,
+.theme-base-navy .related-posts li a:hover {
+  color: #0A001C;
+}
+
+/* Nemesis Red */
+
+.theme-base-red .sidebar,
+.theme-base-red .sidebar-toggle:active,
+.theme-base-red #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #8C0000;
+}
+
+.theme-base-red .container a,
+.theme-base-red .sidebar-toggle,
+.theme-base-red .related-posts li a:hover {
+  color: #8C0000;
+}
