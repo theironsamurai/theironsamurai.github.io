@@ -1,2 +1,2 @@
-# mathNick :: Nick Horton -> Math
+# mathNick :: Coffee -> Theorem
 
